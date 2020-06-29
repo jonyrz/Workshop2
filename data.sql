@@ -1,0 +1,133 @@
+INSERT into PRODUCT values(100860,'ACE TENNIS RACKET I');
+INSERT into PRODUCT values(100861,'ACE TENNIS RACKET II');
+INSERT into PRODUCT values(100870,'ACE TENNIS BALLS-3 PACK');
+INSERT into PRODUCT values(100871,'ACE TENNIS BALLS-6 PACK'); 
+INSERT into PRODUCT values(100890,'ACE TENNIS NET');
+INSERT into PRODUCT values(101860,'SP TENNIS RACKET');
+INSERT into PRODUCT values(101863,'SP JUNIOR RACKET');
+INSERT into PRODUCT values(102130,'RH: GUIDE TO TENNIS'); 
+INSERT into PRODUCT values(200376,'SB ENERGY BAR-6 PACK');
+INSERT into PRODUCT values(200380,'SB VITA SNACK-6 PACK');
+
+INSERT into CUSTOMER values (100,'JACKSPORTS','345 VIDRIDGE','BERMONT','CA',96711,415,'699-6609',7844,5000,'Very friendly people');
+
+INSERT into CUSTOMER values (101,'TKB SPORT SHOP','400 BOLI RD','REDMOOD CITY','CA',94061,415,'368-1233',7521,10000,'Rep called 5/8');
+
+INSERT into CUSTOMER values (102,'VOLLYRITE','9722 HAMILTON','BURLINGAME','CA',95133,415,'644-3341',7654,7000,'Company doing');
+
+INSERT into CUSTOMER values (103,'JUST TENNIS','HILLVIEW MALL','BURLINGAME','CA',97544,415,'677-9312',7521,3000,'Contact rep about');
+
+INSERT into CUSTOMER values (104,'EVERY MOUNTAIN','874 SURRY RD','CUPERTINO','CA',93301,409,'996-2323',7499,10000,'Customer with high market');
+
+INSERT into CUSTOMER values (105,'K + T SPORTS','3476 EL PASEO','SANTA CLARA','CA',91003,409,'376-9966',7844,5000,'Tends to order large amounts');
+
+INSERT into CUSTOMER values (106,'SHAPE UP','908 SEDUCIA','PALO ALTO','CA',94301,415,'364-9777',7521,6000,'Support intensive');
+
+INSERT into CUSTOMER values (107,'WOMENS SPORTS','VALNO VILLADO','SUNNYVALE','CA',93301,406,'967-4399',7499,10000,'First sporting');
+
+INSERT into CUSTOMER values (108,'NORTH WOODS','DONE PINE WAY','HIBBING','CA',55649,612,'566-9123',7844,8000,'firts sporting goods store gearet exculsively towards women');
+
+INSERT into ORD values (610,'07-ene-87','A',101,'08-ene-87',101.4);
+INSERT into ORD values (611,'11-ene-87','B',102,'11-ene-87',45);
+INSERT into ORD values (612,'15-ene-87','C',104,'20-ene-87',5860); 
+INSERT into ORD values (601,'01-may-87','A',106,'30-may-86',2.4);
+INSERT into ORD values (602,'05-jun-87','B',102,'20-jun-86',56);
+INSERT into ORD values (604,'15-jun-87','A',106,'30-jun-86', 698); 
+INSERT into ORD values (605,'14-jul-87','A',106,'30-jul-86',6324);
+INSERT into ORD values (606,'14-jul-87','A',100,'30-jul-86',3.4);
+INSERT into ORD values (609,'01-ago-87','B',100,'15-ago-86', 97.5);
+INSERT into ORD values (607,'18-jul-87','C',104,'18-jul-86',5.6);
+INSERT into ORD values (608,'25-jul-87','C',104,'25-jul-86',35.2);
+INSERT into ORD values (603,'05-jun-87',null,102,'05-jun-86',224); 
+INSERT into ORD values (620,'12-mar-87',null,100,'12-mar-87',4450);
+INSERT into ORD values (613,'01-feb-87',null,108,'01-feb-87',6400);
+INSERT into ORD values (614,'01-feb-87',null,102,'05-feb-87', 23910); 
+INSERT into ORD values (616,'03-feb-87',null,103,'10-feb-87',764);
+INSERT into ORD values (619,'22-feb-87',null,104,'04-feb-87',1260);
+INSERT into ORD values (617,'05-feb-87',null,105,'03-mar-87', 46370); 
+INSERT into ORD values (615,'01-feb-87',null,107,'06-feb-87',710);
+INSERT into ORD values (618,'15-feb-87','A',102,'06-mar-87',3510.5);
+INSERT into ORD values (621,'15-mar-87','A',100,'01-ene-87', 730); 
+
+INSERT into ITEM values (610,3,100890,58,1,58);
+INSERT into ITEM values (611,1,100861,45,1,45);
+INSERT into ITEM values (612,1,100860,30,100,3000);
+INSERT into ITEM values (601,1,200376,2.4,1,2.4);
+INSERT into ITEM values (602,1,100870,2.8,20,56);
+INSERT into ITEM values (604,1,100890,58,3,174);
+INSERT into ITEM values (604,2,100861,42,2,84);
+INSERT into ITEM values (604,3,100860,44,10,440);
+INSERT into ITEM values (603,2,100860,56,4,224);
+INSERT into ITEM values (610,1,100860,35,1,35);
+INSERT into ITEM values (610,2,100870,2.8,3,8.4);
+INSERT into ITEM values (613,4,200376,2.2,200,440);
+INSERT into ITEM values (614,1,100860,35,444,15540);
+INSERT into ITEM values (614,2,100870,2.8,1000,2800);
+INSERT into ITEM values (612,2,100861,40.5,20,810);
+INSERT into ITEM values (612,3,101863,10,150,1500);
+INSERT into ITEM values (620,1,100860,35,10,350);
+INSERT into ITEM values (620,2,200376,2.4,1000,2400);
+INSERT into ITEM values (620,3,102130,3.4,500,1700);
+INSERT into ITEM values (613,1,100871,5.6,100,560);
+INSERT into ITEM values (613,2,101860,24,200,4800);
+INSERT into ITEM values (613,3,200380,4,150,600);
+INSERT into ITEM values (619,3,102130,3.4,100,340);
+INSERT into ITEM values (617,1,100860,35,50,1750);
+INSERT into ITEM values (617,2,100861,45,100,4500);
+INSERT into ITEM values (614,3,100871,5.6,1000,5600);
+INSERT into ITEM values (616,1,100861,45,10,450);
+INSERT into ITEM values (616,2,100870,2.8,50,140);
+INSERT into ITEM values (616,3,100890,58,2,116);
+INSERT into ITEM values (616,4,102130,3.4,10,34);
+INSERT into ITEM values (616,5,200376,2.4,10,24);
+INSERT into ITEM values (619,1,200380,4,100,400);
+INSERT into ITEM values (619,2,200376,2.4,100,240);
+INSERT into ITEM values (615,1,100861,45,4,180);
+INSERT into ITEM values (607,1,100871,5.6,1,5.6);
+INSERT into ITEM values (615,2,100870,2.8,100,280);
+INSERT into ITEM values (617,3,100870,2.8,500,1400);
+INSERT into ITEM values (617,4,100871,5.6,500,2800);
+INSERT into ITEM values (617,5,100890,58,500,29000);
+INSERT into ITEM values (617,6,101860,24,100,2400);
+INSERT into ITEM values (617,7,101863,12.5,200,2500);
+INSERT into ITEM values (617,8,102130,3.4,100,340);
+INSERT into ITEM values (617,9,200376,2.4,200,480);
+INSERT into ITEM values (617,10,200380,4,300,1200);
+INSERT into ITEM values (609,2,100870,2.5,5,12.5);
+INSERT into ITEM values (609,3,100890,50,1,50);
+INSERT into ITEM values (618,1,100860,35,23,805);
+INSERT into ITEM values (618,2,100861,45.11,50,2255.5);
+INSERT into ITEM values (618,3,100870,45,10,450);
+INSERT into ITEM values (621,1,100861,45,10,450);
+INSERT into ITEM values (621,2,100870,2.8,100,280);
+INSERT into ITEM values (615,3,100871,5,50,250);
+INSERT into ITEM values (608,1,101860,24,1,24);
+INSERT into ITEM values (608,2,100871,5.6,2,11.2);
+INSERT into ITEM values (609,1,100861,35,1,35);
+INSERT into ITEM values (606,1,102130,3.4,1,3.4);
+INSERT into ITEM values (605,1,100861,45,100,4500);
+INSERT into ITEM values (605,2,100870,2.8,500,1400);
+INSERT into ITEM values (605,3,100890,58,5,290);
+INSERT into ITEM values (605,4,101860,24,50,1200);
+INSERT into ITEM values (605,5,101863,9,100,900);
+INSERT into ITEM values (605,6,102130,3.4,10,34);
+INSERT into ITEM values (612,4,100871,5.5,100,550);
+INSERT into ITEM values (619,4,100871,5.6,50,280);
+
+INSERT into PRICE values(100871,4.8,3.2,'01-ene-85','01-dic-85');
+INSERT into PRICE values(100890,58,46.4,'01-ene-85',null);
+INSERT into PRICE values(100890,54,40.5,'01-jun-84','31-may-84'); 
+INSERT into PRICE values(100860,35,29,'01-jun-86',null);
+INSERT into PRICE values(100860,32,25.6,'01-ene-86','31-may-86');
+INSERT into PRICE values(100860,30,24,'01-ene-85','31-dic-85'); 
+INSERT into PRICE values(100861,45,36,'01-jun-86',null);
+INSERT into PRICE values(100861,42,33.6,'01-ene-86','31-may-86');
+INSERT into PRICE values(100861,39,31.2,'01-ene-85','31-dic-85'); 
+INSERT into PRICE values(100870,1.3,2.4,'01-ene-86',null);
+INSERT into PRICE values(100871,1.4,1.9,'01-ene-85','01-dic-85');
+INSERT into PRICE values(101860,3.6,4.8,'01-ene-86',null);
+INSERT into PRICE values(100871,14,15,'15-feb-85',null);
+INSERT into PRICE values(101863,11.5,9.4,'15-feb-85',null);
+INSERT into PRICE values(102130,3.4,2.8,'18-ago-86',null);
+INSERT into PRICE values(200376, 2.4,1.75,'15-nov-86',null);
+INSERT into PRICE values(200380,4,3.2,'15-nov-86',null);
